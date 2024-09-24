@@ -98,7 +98,7 @@ const Example1= ()=>{
 }
 
 const ProfileInfo = (props) => {
-    const {albumId,id,title,url,thumbnailUrl} =props;
+    const {title,url} =props;
     return (
         
         <div className='profile'>

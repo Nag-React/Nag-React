@@ -1,10 +1,10 @@
-import { width } from "@fortawesome/free-brands-svg-icons/fa42Group";
+
 import React, {useEffect} from "react";
 import Loading from './Loading';
 const margin = {
     margin: "25px",
 width:'90%',
-margin:'auto'
+
 }
 const About = () => {
   const [data, setData] = React.useState([]);

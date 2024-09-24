@@ -6,7 +6,7 @@ const Services = () => {
   const [error, setError] = useState(false);
   const [edit, setEdit] = useState('');
   const [age, setAge] = useState('');
-  const [editing, setEdited] = useState('');
+  
   const userData = [{
     id: "00014",
     name: "nagu@g",
@@ -39,6 +39,7 @@ const edited=(id)=>{
     setEdit(id);
     const editid = data.find((eachItem)=>eachItem.id === id);
     setEdit(editid);
+    console.log(edit);
 }
 
   return (

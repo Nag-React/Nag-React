@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const Form2 = () => {
     // Destructuring the state properly
-    const [list, setList] = useState([]);
+    
     const [message, setMessage] = useState({ id: '', fname: '',lname:'' });
 
     // Handle input changes
@@ -36,7 +36,9 @@ const Form2 = () => {
                 id: new Date().getTime()
                 
             }),
+            
         });
+        console.log(response);
     }
     return (
         <div className="container">
@@ -67,7 +69,7 @@ const Form2 = () => {
             </form>
 
             <hr />
-            <ul>
+            {/* <ul>
                 {list.map((item) => {
                     const { id, fname } = item;
                     return (
@@ -76,7 +78,7 @@ const Form2 = () => {
                         </li>
                     );
                 })}
-            </ul>
+            </ul> */}
         </div>
     );
 }

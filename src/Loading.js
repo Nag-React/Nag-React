@@ -3,7 +3,7 @@ import loader from './lod.gif';
 const Loading = ()=>{
 return(
     <>
-    <img className='loadimg' src={loader} />
+    <img className='loadimg' src={loader} alt='hello' />
     </>
 )
 }

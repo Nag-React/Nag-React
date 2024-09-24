@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Login from './Login.js';
-import { useNavigate } from "react-router-dom";
+
 function Header() {
     const navArray = [
         {navName :'Home', navPath :'/'}, 

@@ -8,7 +8,7 @@ const Login = () => {
   // State to manage input values
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState('');
+  // const [error, setError] = useState('');
 
   // Mock user data for demonstration
   const userData = {
@@ -79,7 +79,7 @@ const Login = () => {
       >
         Sign in
       </button>
-      {error && <div className="alert alert-danger" role="alert">{error}</div>}
+      
     </form>
     </> );
 };
